@@ -1,10 +1,10 @@
 FROM node:11.6.0-alpine
 
 # labels
-LABEL maintainer="sam.newby19@icloud.com"
+LABEL maintainer="scholz.m82gmail.com"
 
 # variables
-ENV HUGO_VERSION 0.55
+ENV HUGO_VERSION 0.81
 
 # install hugo
 RUN set -x && \
